@@ -50,9 +50,6 @@ public class Commands {
 
     @CommandLine.Command(name = "list", description = "Builds auflisten (optional filtern & sortieren)")
     public static class ListCmd extends Base {
-        @CommandLine.Option(names = "--env", description = "Environment-Filter (z.B. DEV|STAGE|PROD)")
-        String env;
-
         @CommandLine.Option(names = "--older-than", description = "Nur Builds älter als Dauer, z.B. 30d, 8w, 1y")
         String olderThan;
 
@@ -66,7 +63,7 @@ public class Commands {
             Instant cutoffInstant = cutoff == null ? null : Instant.now().minus(cutoff);
 
             List<Models.Build> builds = client.listAllBuilds(pageSize);
-            builds = Util.applyFilters(builds, env, cutoffInstant);
+            builds = Util.applyFilters(builds, cutoffInstant);
             builds.sort(Comparator.comparing(Models.Build::createdAt));
 
             if (limit > 0 && builds.size() > limit) {
@@ -80,9 +77,6 @@ public class Commands {
 
     @CommandLine.Command(name = "prune", description = "Die N ältesten löschbaren Builds löschen (Dry-Run standardmäßig)")
     public static class PruneCmd extends Base {
-        @CommandLine.Option(names = "--env", required = true, description = "Environment-Filter (z.B. DEV|STAGE|PROD) – Pflicht für Sicherheit")
-        String env;
-
         @CommandLine.Option(names = "--older-than", description = "Nur Builds älter als Dauer, z.B. 30d, 8w, 1y")
         String olderThan = "30d";
 
@@ -105,23 +99,25 @@ public class Commands {
             Instant cutoffInstant = cutoff == null ? null : Instant.now().minus(cutoff);
 
             List<Models.Build> builds = client.listAllBuilds(pageSize);
-            // pro Sicherheit: nur gewünschte Env
-            builds = Util.applyFilters(builds, env, cutoffInstant);
+            // nur nach Alter filtern
+            builds = Util.applyFilters(builds, cutoffInstant);
             // Pinned ausschließen, wenn nicht explizit gewünscht
             if (!includePinned) {
                 builds.removeIf(Models.Build::pinned);
             }
             // nur „deletable“ Status
-            builds.removeIf(b -> !Util.isDeletableStatus(b.status()));
+            //builds.removeIf(b -> !Util.isDeletableStatus(b.status()));
             // Nach Alter sortieren
-            builds.sort(Comparator.comparing(Models.Build::createdAt));
+            //builds.sort(Comparator.comparing(Models.Build::createdAt));
             // die neuesten N schützen
             if (keepLatest > 0 && builds.size() > keepLatest) {
                 builds = new ArrayList<>(builds.subList(keepLatest, builds.size()));
             }
             // auf Limit kürzen
             if (limit > 0 && builds.size() > limit) {
-                builds = builds.subList(0, limit);
+                //builds = builds.subList(0, limit);
+                // starting with the oldest
+                builds = builds.subList(builds.size() - limit, builds.size());
             }
 
             System.out.println((execute ? "[PRUNE] Löschen" : "[DRY-RUN] Würde löschen") + ": " + builds.size() + " Builds\n");

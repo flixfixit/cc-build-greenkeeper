@@ -47,7 +47,13 @@ public class Client {
 
     public List<Models.Build> listBuilds(int page, int pageSize) throws IOException {
         String resolvedPath = subscriptionScopedPath(String.format(buildsPath, enc(subscription)));
-        String url = baseUrl + resolvedPath + "?page=" + page + "&pageSize=" + pageSize;
+        //String url = baseUrl + resolvedPath + "?page=" + page + "&pageSize=" + pageSize;
+        int skip = page * pageSize;
+        String url = baseUrl + resolvedPath + "?$top=" + pageSize + "&$skip=" + skip + "&statusNot=DELETED&$count=true&$orderby=buildStartTimestamp%%20desc";
+        //?statusNot=DELETED&$top=12&$skip=0&$count=true&$orderby=buildStartTimestamp%20desc
+        //?statusNot=DELETED&$top=12&$skip=12&$count=true&$orderby=buildStartTimestamp%20desc
+        //?statusNot=DELETED&$top=12&$skip=24&$count=true&$orderby=buildStartTimestamp%20desc
+
         Request req = new Request.Builder()
                 .url(url)
                 .header("Authorization", "Bearer " + token)

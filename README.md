@@ -24,19 +24,19 @@ Setze entweder **Flags** oder **ENV Variablen**:
 
 ## Beispiele
 
-### 1) Die 20 ältesten DEV‑Builds anzeigen, älter als 45 Tage
+### 1) Die 20 ältesten Builds anzeigen, älter als 45 Tage
 
 ```bash
 java -jar target/cc-build-greenkeeper-0.1.0-jar-with-dependencies.jar \
-  list --env DEV --older-than 45d --limit 20 \
+  list --older-than 45d --limit 20 \
   --base "$CC_API_BASE" --token "$CC_API_TOKEN" --subscription "$CC_SUBSCRIPTION"
 ```
 
-### 2) Die 10 ältesten löschbaren DEV‑Builds löschen (Dry‑Run)
+### 2) Die 10 ältesten löschbaren Builds löschen (Dry‑Run)
 
 ```bash
 java -jar target/cc-build-greenkeeper-0.1.0-jar-with-dependencies.jar \
-  prune --env DEV --older-than 30d --limit 10 \
+  prune --older-than 30d --limit 10 \
   --base "$CC_API_BASE" --token "$CC_API_TOKEN" --subscription "$CC_SUBSCRIPTION"
 ```
 
@@ -44,14 +44,13 @@ java -jar target/cc-build-greenkeeper-0.1.0-jar-with-dependencies.jar \
 
 ```bash
 java -jar target/cc-build-greenkeeper-0.1.0-jar-with-dependencies.jar \
-  prune --env DEV --older-than 30d --limit 10 --keep-latest 5 --execute \
+  prune --older-than 30d --limit 10 --keep-latest 5 --execute \
   --base "$CC_API_BASE" --token "$CC_API_TOKEN" --subscription "$CC_SUBSCRIPTION"
 ```
 
 ## Sicherheit & Best Practices
 
 - Standard ist **Dry‑Run**. Setze `--execute`, um wirklich zu löschen.
-- `--env` ist Pflicht beim `prune`‑Befehl.
 - Pinned/aktive/benutzte Builds werden standardmäßig **nicht** gelöscht.
 - Logs in der Konsole (kannst du leicht in JSON/CSV erweitern).
 - Paginierung: `--page-size` (Default 100) und automatische Seitenabfrage.
@@ -62,4 +61,4 @@ java -jar target/cc-build-greenkeeper-0.1.0-jar-with-dependencies.jar \
 
 ## Mapping‑Hinweis
 
-- Das Model `Models.Build` nimmt an, dass die API Felder wie `code`, `name`, `status`, `createdAt`, `pinned`, `environment` liefert. Wenn eure API andere Feldnamen nutzt, kannst du in `Models.Build` die `@JsonProperty`‑Namen anpassen oder in `Client.listBuilds` die Konvertierung justieren.
+- Das Model `Models.Build` nimmt an, dass die API Felder wie `code`, `name`, `status`, `createdAt`, `pinned` liefert. Wenn eure API andere Feldnamen nutzt, kannst du in `Models.Build` die `@JsonProperty`‑Namen anpassen oder in `Client.listBuilds` die Konvertierung justieren.

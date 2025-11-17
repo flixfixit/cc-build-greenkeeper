@@ -24,10 +24,6 @@ public class Models {
         @JsonProperty("pinned")
         private boolean pinned;
 
-        @JsonProperty("environment")
-        @JsonAlias({"branch"})
-        private String environment;
-
         private Map<String, Object> raw = new HashMap<>();
 
         @JsonAnySetter
@@ -60,13 +56,9 @@ public class Models {
             return pinned;
         }
 
-        public String environment() {
-            return environment;
-        }
-
         @Override
         public String toString() {
-            return code + "\t" + name + "\t" + status + "\t" + createdAt + "\t" + pinned + "\t" + environment;
+            return code + "\t" + name + "\t" + status + "\t" + createdAt + "\t" + pinned;
         }
     }
 }

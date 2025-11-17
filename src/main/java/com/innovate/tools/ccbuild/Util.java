@@ -71,12 +71,9 @@ public class Util {
         return !(s.contains("active") || s.contains("running") || s.contains("deploy") || s.contains("in_use"));
     }
 
-    static List<Models.Build> applyFilters(List<Models.Build> builds, String env, Instant cutoff) {
+    static List<Models.Build> applyFilters(List<Models.Build> builds, Instant cutoff) {
         List<Models.Build> out = new ArrayList<>();
         for (Models.Build b : builds) {
-            if (env != null && b.environment() != null && !b.environment().equalsIgnoreCase(env)) {
-                continue;
-            }
             if (cutoff != null) {
                 Instant c = b.createdAt();
                 if (c == null) {
@@ -92,11 +89,11 @@ public class Util {
     }
 
     static void printTable(List<Models.Build> builds) {
-        System.out.printf("%-32s  %-24s  %-12s  %-25s  %-6s  %-8s%n", "CODE", "NAME", "STATUS", "CREATED_AT", "PINNED", "ENV");
+        System.out.printf("%-32s  %-24s  %-12s  %-25s  %-6s%n", "CODE", "NAME", "STATUS", "CREATED_AT", "PINNED");
         for (Models.Build b : builds) {
             String created = b.createdAt() != null ? b.createdAt().toString() : String.valueOf(b.raw().get("_createdAtFallback"));
-            System.out.printf("%-32s  %-24s  %-12s  %-25s  %-6s  %-8s%n",
-                    safe(b.code()), safe(b.name()), safe(b.status()), created, b.pinned(), safe(b.environment()));
+            System.out.printf("%-32s  %-24s  %-12s  %-25s  %-6s%n",
+                    safe(b.code()), safe(b.name()), safe(b.status()), created, b.pinned());
         }
     }
 
