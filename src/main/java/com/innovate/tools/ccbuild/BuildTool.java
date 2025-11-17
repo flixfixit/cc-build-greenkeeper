@@ -1,11 +1,16 @@
 package com.innovate.tools.ccbuild;
+
 import picocli.CommandLine;
+
 @CommandLine.Command(
         name = "cc-build",
         version = "0.1.0",
         mixinStandardHelpOptions = true,
-        description = "SAP Commerce Cloud Build greenkeeper CLI",
-        subcommands = { Commands.ListCmd.class, Commands.PruneCmd.class }
+        description = "SAP Commerce Cloud Build Pruner CLI",
+        subcommands = {
+                Commands.ListCmd.class,
+                Commands.PruneCmd.class
+        }
 )
 public class BuildTool implements Runnable {
     public static void main(String[] args) {
