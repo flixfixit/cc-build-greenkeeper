@@ -1,0 +1,8 @@
+# Alle Class-Files ignorieren (rekursiv)
+*.class
+*.CLASS
+**/*.class
+**/*.CLASS
+
+# Build-Output
+target/

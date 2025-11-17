@@ -46,7 +46,8 @@ public class Client {
     }
 
     public List<Models.Build> listBuilds(int page, int pageSize) throws IOException {
-        String url = baseUrl + path(buildsPath) + "?subscription=" + enc(subscription) + "&page=" + page + "&pageSize=" + pageSize;
+        String resolvedPath = subscriptionScopedPath(String.format(buildsPath, enc(subscription)));
+        String url = baseUrl + resolvedPath + "?page=" + page + "&pageSize=" + pageSize;
         Request req = new Request.Builder()
                 .url(url)
                 .header("Authorization", "Bearer " + token)
@@ -65,7 +66,7 @@ public class Client {
                 list = om.readValue(body, new TypeReference<>() {});
             } else {
                 JsonNode items = n.get("items");
-                if (items == null) items = n.get("values");
+                if (items == null) items = n.get("value");
                 if (items == null) items = n.get("data");
                 if (items == null || !items.isArray()) {
                     throw new IOException("Unerwartetes Listenformat");
@@ -85,7 +86,8 @@ public class Client {
     }
 
     public void deleteBuild(String buildCode) throws IOException {
-        String url = baseUrl + path(String.format(deleteTemplate, enc(buildCode))) + "?subscription=" + enc(subscription);
+        String resolvedPath = subscriptionScopedPath(String.format(deleteTemplate, enc(subscription), enc(buildCode)));
+        String url = baseUrl + resolvedPath;
         Request req = new Request.Builder()
                 .url(url)
                 .delete()
@@ -102,6 +104,14 @@ public class Client {
 
     private static String trimEnd(String s) {
         return s.replaceAll("/+$", "");
+    }
+
+    private String subscriptionScopedPath(String rawPath) {
+        String normalized = path(rawPath);
+        if (normalized.startsWith("/v2/subscriptions/")) {
+            return normalized; // already a fully qualified path
+        }
+        return "/v2/subscriptions/" + enc(subscription) + normalized;
     }
 
     private static String path(String p) {

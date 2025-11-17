@@ -24,7 +24,7 @@
                 "--env", "D1",
 				"--older-than", "45d",
 				"--limit", "20",
-                "--base", "https://portalrotapi.hana.ondemand.com/v2",
+                "--base", "https://portalrotapi.hana.ondemand.com",
                 "--token", "77585fb781a7bc412ce90547d173ef9",
                 "--subscription", "9e7b8c8ac58c42c9a28234dd62960958"
             ]

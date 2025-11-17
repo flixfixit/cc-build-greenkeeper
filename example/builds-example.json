@@ -1,0 +1,4608 @@
+{
+	"value": [
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2604-1a",
+			"branch": "v5.005.00",
+			"name": "v5.005.00",
+			"code": "20251117.2",
+			"buildStartTimestamp": "2025-11-17T15:23:43.360Z",
+			"buildEndTimestamp": "2025-11-17T15:26:31.885Z",
+			"buildVersion": "2211.43-2211azuresdk12-20251015-123829-20251117.2-edc9afb-v5.005.00",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": true,
+			"properties": [
+				{
+					"key": "product.version",
+					"value": "2211.43-2211azuresdk12-20251015-123829"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "edc9afb"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.43"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20251015-123829"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20251014-020224"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.4"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2026-08-31"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2604-1a",
+			"branch": "develop",
+			"name": "dev_v5.004.15",
+			"code": "20251117.1",
+			"buildStartTimestamp": "2025-11-17T14:52:01.979Z",
+			"buildEndTimestamp": "2025-11-17T15:14:03.045Z",
+			"buildVersion": "2211.43-2211azuresdk12-20251015-123829-20251117.1-edc9afb-develop",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": true,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.43"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20251015-123829"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20251014-020224"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.4"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.43-2211azuresdk12-20251015-123829"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "edc9afb"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2026-08-31"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2604-1a",
+			"branch": "develop",
+			"name": "dev_v5.004.15",
+			"code": "20251114.2",
+			"buildStartTimestamp": "2025-11-14T14:37:44.762Z",
+			"buildEndTimestamp": "2025-11-14T15:03:05.894Z",
+			"buildVersion": "2211.43-2211azuresdk12-20251015-123829-20251114.2-f533706-develop",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.43"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20251015-123829"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20251014-020224"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.4"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.43-2211azuresdk12-20251015-123829"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "f533706"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2026-08-31"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2604-1a",
+			"branch": "develop",
+			"name": "dev_v5.004.15",
+			"code": "20251114.1",
+			"buildStartTimestamp": "2025-11-14T10:47:40.877Z",
+			"buildEndTimestamp": "2025-11-14T11:09:20.400Z",
+			"buildVersion": "2211.43-2211azuresdk12-20251015-123829-20251114.1-42ad971-develop",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.43"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20251015-123829"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20251014-020224"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.4"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.43-2211azuresdk12-20251015-123829"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "42ad971"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2026-08-31"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2604-1a",
+			"branch": "develop",
+			"name": "dev_v5.004.15",
+			"code": "20251113.1",
+			"buildStartTimestamp": "2025-11-13T19:20:00.061Z",
+			"buildEndTimestamp": "2025-11-13T19:46:00.636Z",
+			"buildVersion": "2211.43-2211azuresdk12-20251015-123829-20251113.1-a510c52-develop",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": true,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.43"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20251015-123829"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20251014-020224"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.4"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.43-2211azuresdk12-20251015-123829"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "a510c52"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2026-08-31"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2604-1a",
+			"branch": "develop",
+			"name": "dev_v5.004.15",
+			"code": "20251111.3",
+			"buildStartTimestamp": "2025-11-11T08:18:46.106Z",
+			"buildEndTimestamp": "2025-11-11T08:36:03.596Z",
+			"buildVersion": "2211.43-2211azuresdk12-20251015-123829-20251111.3-31e4a17-develop",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.43"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20251015-123829"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20251014-020224"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.4"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.43-2211azuresdk12-20251015-123829"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "31e4a17"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2026-08-31"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2604-1a",
+			"branch": "develop",
+			"name": "dev_v5.004.15",
+			"code": "20251111.2",
+			"buildStartTimestamp": "2025-11-11T08:11:54.879Z",
+			"buildEndTimestamp": "2025-11-11T08:29:15.603Z",
+			"buildVersion": "2211.43-2211azuresdk12-20251015-123829-20251111.2-706d19e-develop",
+			"createdBy": "S0020865395",
+			"status": "DELETED",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.43"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20251015-123829"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20251014-020224"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.4"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.43-2211azuresdk12-20251015-123829"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "706d19e"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2026-08-31"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2604-1a",
+			"branch": "develop",
+			"name": "dev_v5.004.15",
+			"code": "20251111.1",
+			"buildStartTimestamp": "2025-11-11T07:38:11.943Z",
+			"buildEndTimestamp": "2025-11-11T07:59:20.417Z",
+			"buildVersion": "2211.43-2211azuresdk12-20251015-123829-20251111.1-8b546e8-develop",
+			"createdBy": "S0020865395",
+			"status": "DELETED",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.43"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20251015-123829"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20251014-020224"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.4"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.43-2211azuresdk12-20251015-123829"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "8b546e8"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2026-08-31"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2604-1a",
+			"branch": "develop",
+			"name": "dev_v5.004.15",
+			"code": "20251106.3",
+			"buildStartTimestamp": "2025-11-06T15:58:10.311Z",
+			"buildEndTimestamp": "2025-11-06T16:14:49.054Z",
+			"buildVersion": "2211.43-2211azuresdk12-20251015-123829-20251106.3-5ce4926-develop",
+			"createdBy": "S0020865395",
+			"status": "DELETED",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.43"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20251015-123829"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20251014-020224"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.4"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.43-2211azuresdk12-20251015-123829"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "5ce4926"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2026-08-31"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2604-1a",
+			"branch": "develop",
+			"name": "dev_v5.004.15",
+			"code": "20251106.2",
+			"buildStartTimestamp": "2025-11-06T15:48:49.318Z",
+			"buildEndTimestamp": "2025-11-06T16:11:09.736Z",
+			"buildVersion": "2211.43-2211azuresdk12-20251015-123829-20251106.2-a011c9b-develop",
+			"createdBy": "S0020865395",
+			"status": "DELETED",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.43"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20251015-123829"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20251014-020224"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.4"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.43-2211azuresdk12-20251015-123829"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "a011c9b"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2026-08-31"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2604-1a",
+			"branch": "develop",
+			"name": "dev_v5.004.15",
+			"code": "20251106.1",
+			"buildStartTimestamp": "2025-11-06T13:18:50.969Z",
+			"buildEndTimestamp": "2025-11-06T13:40:48.659Z",
+			"buildVersion": "2211.43-2211azuresdk12-20251015-123829-20251106.1-d3936bc-develop",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.43"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20251015-123829"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20251014-020224"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.4"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.43-2211azuresdk12-20251015-123829"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "d3936bc"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.17"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2026-08-31"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-25",
+			"branch": "develop",
+			"name": "dev_v5.004.15",
+			"code": "20251022.1",
+			"buildStartTimestamp": "2025-10-22T15:30:56.061Z",
+			"buildEndTimestamp": "2025-10-22T15:52:02.785Z",
+			"buildVersion": "2211.43-2211azuresdk12-20251001-020211-20251022.1-aee739d-develop",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.43"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20251001-020211"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20251011-020222"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.4"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.43-2211azuresdk12-20251001-020211"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "aee739d"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2026-08-31"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-24",
+			"branch": "develop",
+			"name": "dev_v5.004.15",
+			"code": "20251020.3",
+			"buildStartTimestamp": "2025-10-20T11:45:40.040Z",
+			"buildEndTimestamp": "2025-10-20T12:00:56.961Z",
+			"buildVersion": "2211.43-2211azuresdk12-20251001-020211-20251020.3-748d8f9-develop",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.43"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20251001-020211"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20251002-010758"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.4"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.43-2211azuresdk12-20251001-020211"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "748d8f9"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2026-08-31"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-24",
+			"branch": "develop",
+			"name": "dev_v5.004.15",
+			"code": "20251020.2",
+			"buildStartTimestamp": "2025-10-20T11:17:44.689Z",
+			"buildEndTimestamp": "2025-10-20T11:32:58.449Z",
+			"buildVersion": "2211.43-2211azuresdk12-20251001-020211-20251020.2-cfcb9f9-develop",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.43"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20251001-020211"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20251002-010758"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.4"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.43-2211azuresdk12-20251001-020211"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "cfcb9f9"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2026-08-31"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-24",
+			"branch": "develop",
+			"name": "dev_v5.004.15",
+			"code": "20251020.1",
+			"buildStartTimestamp": "2025-10-20T10:53:48.457Z",
+			"buildEndTimestamp": "2025-10-20T11:14:33.613Z",
+			"buildVersion": "2211.43-2211azuresdk12-20251001-020211-20251020.1-4b26a78-develop",
+			"createdBy": "S0020865395",
+			"status": "DELETED",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.43"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20251001-020211"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20251002-010758"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.4"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.43-2211azuresdk12-20251001-020211"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "4b26a78"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2026-08-31"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-24",
+			"branch": "develop",
+			"name": "dev_v5.004.15",
+			"code": "20251016.4",
+			"buildStartTimestamp": "2025-10-16T19:00:15.056Z",
+			"buildEndTimestamp": "2025-10-16T19:19:52.609Z",
+			"buildVersion": "2211.43-2211azuresdk12-20251001-020211-20251016.4-ccbc653-develop",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.43"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20251001-020211"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20251002-010758"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.4"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.43-2211azuresdk12-20251001-020211"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "ccbc653"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2026-08-31"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-24",
+			"branch": "develop",
+			"name": "dev_v5.004.15",
+			"code": "20251016.3",
+			"buildStartTimestamp": "2025-10-16T12:11:28.169Z",
+			"buildEndTimestamp": "2025-10-16T12:31:04.862Z",
+			"buildVersion": "2211.43-2211azuresdk12-20251001-020211-20251016.3-5f57a9e-develop",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.43"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20251001-020211"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20251002-010758"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.4"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.43-2211azuresdk12-20251001-020211"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "5f57a9e"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2026-08-31"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-24",
+			"branch": "develop",
+			"name": "dev_v5.004.15",
+			"code": "20251016.2",
+			"buildStartTimestamp": "2025-10-16T11:03:28.478Z",
+			"buildEndTimestamp": "2025-10-16T11:24:43.277Z",
+			"buildVersion": "2211.43-2211azuresdk12-20251001-020211-20251016.2-bba020c-develop",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.43"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20251001-020211"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20251002-010758"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.4"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.43-2211azuresdk12-20251001-020211"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "bba020c"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2026-08-31"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-24",
+			"branch": "develop",
+			"name": "dev_v5.004.15",
+			"code": "20251016.1",
+			"buildStartTimestamp": "2025-10-16T08:22:47.420Z",
+			"buildEndTimestamp": "2025-10-16T08:49:57.066Z",
+			"buildVersion": "2211.43-2211azuresdk12-20251001-020211-20251016.1-7d55d9d-develop",
+			"createdBy": "S0020865395",
+			"status": "DELETED",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.43"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20251001-020211"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20251002-010758"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.4"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.43-2211azuresdk12-20251001-020211"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "7d55d9d"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2026-08-31"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-24",
+			"branch": "develop",
+			"name": "dev_v5.004.15",
+			"code": "20251015.1",
+			"buildStartTimestamp": "2025-10-15T09:50:48.966Z",
+			"buildEndTimestamp": "2025-10-15T10:12:21.337Z",
+			"buildVersion": "2211.43-2211azuresdk12-20251001-020211-20251015.1-ca57068-develop",
+			"createdBy": "S0020865395",
+			"status": "DELETED",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.43"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20251001-020211"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20251002-010758"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.4"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.43-2211azuresdk12-20251001-020211"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "ca57068"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2026-08-31"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-22",
+			"branch": "develop",
+			"name": "dev_v5.004.15",
+			"code": "20251014.2",
+			"buildStartTimestamp": "2025-10-14T14:56:52.709Z",
+			"buildEndTimestamp": "2025-10-14T15:17:28.849Z",
+			"buildVersion": "2211.43-2211azuresdk12-20250910-020234-20251014.2-a5eda2e-develop",
+			"createdBy": "S0020865395",
+			"status": "DELETED",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.43"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20250910-020234"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20250906-020229"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.3"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.43-2211azuresdk12-20250910-020234"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "a5eda2e"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2026-08-31"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-22",
+			"branch": "develop",
+			"name": "dev_v5.004.15",
+			"code": "20251014.1",
+			"buildStartTimestamp": "2025-10-14T08:13:57.951Z",
+			"buildEndTimestamp": "2025-10-14T08:40:08.373Z",
+			"buildVersion": "2211.43-2211azuresdk12-20250910-020234-20251014.1-2690caa-develop",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.43"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20250910-020234"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20250906-020229"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.3"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.43-2211azuresdk12-20250910-020234"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "2690caa"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2026-08-31"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-22",
+			"branch": "develop",
+			"name": "dev_v5.004.15",
+			"code": "20251007.1",
+			"buildStartTimestamp": "2025-10-07T07:26:38.311Z",
+			"buildEndTimestamp": "2025-10-07T07:49:15.669Z",
+			"buildVersion": "2211.43-2211azuresdk12-20250910-020234-20251007.1-d0c6607-develop",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.43"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20250910-020234"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20250906-020229"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.3"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.43-2211azuresdk12-20250910-020234"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "d0c6607"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2026-08-31"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-22",
+			"branch": "develop",
+			"name": "dev_v5.004.15",
+			"code": "20250930.1",
+			"buildStartTimestamp": "2025-09-30T15:00:24.609Z",
+			"buildEndTimestamp": "2025-09-30T15:23:05.451Z",
+			"buildVersion": "2211.43-2211azuresdk12-20250910-020234-20250930.1-505c65b-develop",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.43"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20250910-020234"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20250906-020229"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.3"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.43-2211azuresdk12-20250910-020234"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "505c65b"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2026-08-31"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-20",
+			"branch": "develop",
+			"name": "dev_v5.004.15",
+			"code": "20250919.2",
+			"buildStartTimestamp": "2025-09-19T15:06:42.857Z",
+			"buildEndTimestamp": "2025-09-19T15:14:48.257Z",
+			"buildVersion": "2211.43-2211azuresdk12-20250910-020234-20250919.2-39db039-develop",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.version",
+					"value": "2211.43-2211azuresdk12-20250910-020234"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "39db039"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.43"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20250910-020234"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20250906-020229"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.3"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2026-08-31"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-20",
+			"branch": "develop",
+			"name": "dev_v5.004.15",
+			"code": "20250919.1",
+			"buildStartTimestamp": "2025-09-19T13:26:27.484Z",
+			"buildEndTimestamp": "2025-09-19T13:48:15.550Z",
+			"buildVersion": "2211.43-2211azuresdk12-20250910-020234-20250919.1-a8e2f51-develop",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.43"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20250910-020234"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20250906-020229"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.3"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.43-2211azuresdk12-20250910-020234"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "a8e2f51"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2026-08-31"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-20",
+			"branch": "develop",
+			"name": "dev_v5.004.15",
+			"code": "20250918.1",
+			"buildStartTimestamp": "2025-09-18T11:50:52.333Z",
+			"buildEndTimestamp": "2025-09-18T12:13:11.307Z",
+			"buildVersion": "2211.43-2211azuresdk12-20250910-020234-20250918.1-5c2fb9f-develop",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.43"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20250910-020234"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20250906-020229"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.3"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.43-2211azuresdk12-20250910-020234"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "5c2fb9f"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2026-08-31"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-20",
+			"branch": "develop",
+			"name": "dev_v5.004.15",
+			"code": "20250917.1",
+			"buildStartTimestamp": "2025-09-17T09:48:34.899Z",
+			"buildEndTimestamp": "2025-09-17T10:10:53.537Z",
+			"buildVersion": "2211.43-2211azuresdk12-20250910-020234-20250917.1-521ad38-develop",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.43"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20250910-020234"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20250906-020229"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.3"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.43-2211azuresdk12-20250910-020234"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "521ad38"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2026-08-31"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-18-2",
+			"branch": "feature/CR022-Rollout_HX",
+			"name": "feature-CR022-Rollout_HX",
+			"code": "20250908.2",
+			"buildStartTimestamp": "2025-09-08T18:52:50.934Z",
+			"buildEndTimestamp": "2025-09-08T19:13:30.328Z",
+			"buildVersion": "2211.43-2211azuresdk12-20250812-020315-20250908.2-41546af-feature/CR022-Rollout_HX",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.43"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20250812-020315"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20250827-020256"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.3"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.43-2211azuresdk12-20250812-020315"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "41546af"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2026-08-31"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-18-2",
+			"branch": "feature/CR022-Rollout_HX",
+			"name": "feature-CR022-Rollout_HX",
+			"code": "20250908.1",
+			"buildStartTimestamp": "2025-09-08T11:41:33.812Z",
+			"buildEndTimestamp": "2025-09-08T12:02:29.502Z",
+			"buildVersion": "2211.43-2211azuresdk12-20250812-020315-20250908.1-58ac833-feature/CR022-Rollout_HX",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.43"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20250812-020315"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20250827-020256"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.3"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.43-2211azuresdk12-20250812-020315"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "58ac833"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2026-08-31"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-18-2",
+			"branch": "feature/CR022-Rollout_HX",
+			"name": "feature-CR022-Rollout_HX",
+			"code": "20250904.2",
+			"buildStartTimestamp": "2025-09-04T05:44:58.434Z",
+			"buildEndTimestamp": "2025-09-04T06:02:45.531Z",
+			"buildVersion": "2211.37-2211azuresdk12-20250812-020315-20250904.2-32f09e0-feature/CR022-Rollout_HX",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20250812-020315"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20250827-020256"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.32"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.3"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.37-2211azuresdk12-20250812-020315"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "32f09e0"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2025-09-11"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-18-2",
+			"branch": "develop",
+			"name": "dev_v5.004.15",
+			"code": "20250904.1",
+			"buildStartTimestamp": "2025-09-04T05:39:25.242Z",
+			"buildEndTimestamp": "2025-09-04T06:02:49.888Z",
+			"buildVersion": "2211.37-2211azuresdk12-20250812-020315-20250904.1-f3c8db4-develop",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20250812-020315"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20250827-020256"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.32"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.3"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.37-2211azuresdk12-20250812-020315"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "f3c8db4"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2025-09-11"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-17",
+			"branch": "feature/CR022-Rollout_HX",
+			"name": "feature-CR022-Rollout_HX",
+			"code": "20250828.1",
+			"buildStartTimestamp": "2025-08-28T06:39:40.766Z",
+			"buildEndTimestamp": "2025-08-28T07:00:29.676Z",
+			"buildVersion": "2211.37-2211azuresdk12-20250812-020315-20250828.1-bc52d45-feature/CR022-Rollout_HX",
+			"createdBy": "S0003682133",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20250812-020315"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20250812-020326"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.32"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.8"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.3"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.37-2211azuresdk12-20250812-020315"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "bc52d45"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4194304000"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2025-09-11"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-14",
+			"branch": "feature/CR022-Rollout_HX",
+			"name": "feature-CR022-Rollout_HX",
+			"code": "20250808.1",
+			"buildStartTimestamp": "2025-08-08T08:48:08.817Z",
+			"buildEndTimestamp": "2025-08-08T08:56:26.278Z",
+			"buildVersion": "2211.37-2211azuresdk12-20250709-020217-20250808.1-e83b23e-feature/CR022-Rollout_HX",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.version",
+					"value": "2211.37-2211azuresdk12-20250709-020217"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "e83b23e"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4125097984"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20250709-020217"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20250709-020228"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.32"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.3"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.7"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2025-09-11"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-13",
+			"branch": "v5.004.14",
+			"name": "v5.004.14",
+			"code": "20250804.1",
+			"buildStartTimestamp": "2025-08-04T20:10:07.667Z",
+			"buildEndTimestamp": "2025-08-04T20:18:39.606Z",
+			"buildVersion": "2211.37-2211azuresdk12-20250709-020217-20250804.1-6cab0c0-v5.004.14",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": true,
+			"deployed": true,
+			"properties": [
+				{
+					"key": "product.version",
+					"value": "2211.37-2211azuresdk12-20250709-020217"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "6cab0c0"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4125097984"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20250709-020217"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20250709-020228"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.32"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.3"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.7"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2025-09-11"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-13",
+			"branch": "feature/CR022-Rollout_HX",
+			"name": "feature-CR022-Rollout_HX",
+			"code": "20250731.2",
+			"buildStartTimestamp": "2025-07-31T06:33:04.477Z",
+			"buildEndTimestamp": "2025-07-31T06:53:10.400Z",
+			"buildVersion": "2211.37-2211azuresdk12-20250709-020217-20250731.2-e83b23e-feature/CR022-Rollout_HX",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20250709-020217"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20250709-020228"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.32"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.3"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.7"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.37-2211azuresdk12-20250709-020217"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "e83b23e"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4125097984"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2025-09-11"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-13",
+			"branch": "develop",
+			"name": "dev_v5.004.14",
+			"code": "20250731.1",
+			"buildStartTimestamp": "2025-07-31T06:30:05.042Z",
+			"buildEndTimestamp": "2025-07-31T06:52:56.957Z",
+			"buildVersion": "2211.37-2211azuresdk12-20250709-020217-20250731.1-6cab0c0-develop",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20250709-020217"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20250709-020228"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.32"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.3"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.7"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.37-2211azuresdk12-20250709-020217"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "6cab0c0"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4125097984"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2025-09-11"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-13",
+			"branch": "feature/CR022-Rollout_HX",
+			"name": "feature-CR022-Rollout_HX",
+			"code": "20250730.1",
+			"buildStartTimestamp": "2025-07-30T08:30:02.262Z",
+			"buildEndTimestamp": "2025-07-30T08:48:35.378Z",
+			"buildVersion": "2211.37-2211azuresdk12-20250709-020217-20250730.1-5f97d5c-feature/CR022-Rollout_HX",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.16"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20250709-020217"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20250709-020228"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.32"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.3"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.7"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.37-2211azuresdk12-20250709-020217"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "5f97d5c"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4125097984"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2025-09-11"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-12",
+			"branch": "feature/CR022-Rollout_HX",
+			"name": "feature-CR022-Rollout_HX",
+			"code": "20250729.3",
+			"buildStartTimestamp": "2025-07-29T06:16:45.618Z",
+			"buildEndTimestamp": "2025-07-29T06:33:41.587Z",
+			"buildVersion": "2211.37-2211azuresdk12-20250709-020217-20250729.3-67f4c91-feature/CR022-Rollout_HX",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20250709-020217"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20250709-020228"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.32"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.3"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.7"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.37-2211azuresdk12-20250709-020217"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "67f4c91"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4125097984"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2025-09-11"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-12",
+			"branch": "develop",
+			"name": "dev_v5.004.14",
+			"code": "20250729.2",
+			"buildStartTimestamp": "2025-07-29T06:15:19.422Z",
+			"buildEndTimestamp": "2025-07-29T06:32:11.068Z",
+			"buildVersion": "2211.37-2211azuresdk12-20250709-020217-20250729.2-cfeaa18-develop",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20250709-020217"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20250709-020228"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.32"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.3"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.7"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.37-2211azuresdk12-20250709-020217"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "cfeaa18"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4125097984"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2025-09-11"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-12",
+			"branch": "develop",
+			"name": "dev_v5.004.14",
+			"code": "20250729.1",
+			"buildStartTimestamp": "2025-07-29T05:59:05.328Z",
+			"buildEndTimestamp": "2025-07-29T06:04:50.117Z",
+			"buildVersion": null,
+			"createdBy": "S0020865395",
+			"status": "FAIL",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": []
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-12",
+			"branch": "feature/CR022-Rollout_HX",
+			"name": "feature-CR022-Rollout_HX",
+			"code": "20250728.2",
+			"buildStartTimestamp": "2025-07-28T14:46:36.352Z",
+			"buildEndTimestamp": "2025-07-28T15:07:07.505Z",
+			"buildVersion": "2211.37-2211azuresdk12-20250709-020217-20250728.2-60ce8ad-feature/CR022-Rollout_HX",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20250709-020217"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20250709-020228"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.32"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.3"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.7"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.37-2211azuresdk12-20250709-020217"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "60ce8ad"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4125097984"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2025-09-11"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-12",
+			"branch": "develop",
+			"name": "dev_v5.004.14",
+			"code": "20250728.1",
+			"buildStartTimestamp": "2025-07-28T06:18:01.427Z",
+			"buildEndTimestamp": "2025-07-28T06:37:47.898Z",
+			"buildVersion": "2211.37-2211azuresdk12-20250709-020217-20250728.1-eb4c5aa-develop",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20250709-020217"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20250709-020228"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.32"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.3"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.7"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.37-2211azuresdk12-20250709-020217"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "eb4c5aa"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4125097984"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2025-09-11"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-12",
+			"branch": "v5.004.13",
+			"name": "v5.004.13",
+			"code": "20250722.1",
+			"buildStartTimestamp": "2025-07-22T12:14:10.922Z",
+			"buildEndTimestamp": "2025-07-22T12:32:41.461Z",
+			"buildVersion": "2211.37-2211azuresdk12-20250709-020217-20250722.1-5a52ddf-v5.004.13",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20250709-020217"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20250709-020228"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.32"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.3"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.7"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.37-2211azuresdk12-20250709-020217"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "5a52ddf"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4125097984"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2025-09-11"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-11",
+			"branch": "develop",
+			"name": "dev_v5.004.13",
+			"code": "20250718.1",
+			"buildStartTimestamp": "2025-07-18T09:39:19.745Z",
+			"buildEndTimestamp": "2025-07-18T09:58:47.905Z",
+			"buildVersion": "2211.37-2211azuresdk12-20250709-020217-20250718.1-5a52ddf-develop",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20250709-020217"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20250709-020228"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.32"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.3"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.7"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.37-2211azuresdk12-20250709-020217"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "5a52ddf"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4125097984"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2025-09-11"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-11",
+			"branch": "develop",
+			"name": "dev_v5.004.13",
+			"code": "20250717.2",
+			"buildStartTimestamp": "2025-07-17T13:43:37.059Z",
+			"buildEndTimestamp": "2025-07-17T14:04:30.406Z",
+			"buildVersion": "2211.37-2211azuresdk12-20250709-020217-20250717.2-ac50c04-develop",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20250709-020217"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20250709-020228"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.32"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.3"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.7"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.37-2211azuresdk12-20250709-020217"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "ac50c04"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4125097984"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2025-09-11"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-11",
+			"branch": "develop",
+			"name": "dev_v5.004.13",
+			"code": "20250717.1",
+			"buildStartTimestamp": "2025-07-17T09:09:19.837Z",
+			"buildEndTimestamp": "2025-07-17T09:28:49.739Z",
+			"buildVersion": "2211.37-2211azuresdk12-20250709-020217-20250717.1-7edfe36-develop",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20250709-020217"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20250709-020228"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.32"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.3"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.7"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.37-2211azuresdk12-20250709-020217"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "7edfe36"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4125097984"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2025-09-11"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-9-2",
+			"branch": "v5.004.12",
+			"name": "v5.004.12",
+			"code": "20250707.1",
+			"buildStartTimestamp": "2025-07-07T12:55:29.823Z",
+			"buildEndTimestamp": "2025-07-07T13:04:02.692Z",
+			"buildVersion": "2211.37-2211azuresdk12-20250621-020258-20250707.1-3e62cc7-v5.004.12",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.version",
+					"value": "2211.37-2211azuresdk12-20250621-020258"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "3e62cc7"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4125097984"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20250621-020258"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20250625-150810"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.32"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.3"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.7"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2025-09-11"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-9-2",
+			"branch": "develop",
+			"name": "dev_v5.004.12",
+			"code": "20250703.1",
+			"buildStartTimestamp": "2025-07-03T14:55:14.333Z",
+			"buildEndTimestamp": "2025-07-03T15:13:35.211Z",
+			"buildVersion": "2211.37-2211azuresdk12-20250621-020258-20250703.1-3e62cc7-develop",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20250621-020258"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20250625-150810"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.32"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.3"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.7"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.37-2211azuresdk12-20250621-020258"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "3e62cc7"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4125097984"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2025-09-11"
+				}
+			]
+		},
+		{
+			"subscriptionCode": "9e7b8c8ac58c42c9a28234dd62960958",
+			"applicationCode": "commerce-cloud",
+			"applicationDefinitionVersion": "2510-8",
+			"branch": "develop",
+			"name": "dev_v5.004.12",
+			"code": "20250626.1",
+			"buildStartTimestamp": "2025-06-26T10:33:13.825Z",
+			"buildEndTimestamp": "2025-06-26T10:53:04.987Z",
+			"buildVersion": "2211.37-2211azuresdk12-20250611-020215-20250626.1-dd941ba-develop",
+			"createdBy": "S0020865395",
+			"status": "SUCCESS",
+			"isPreview": false,
+			"hasSnapshot": false,
+			"deployed": false,
+			"properties": [
+				{
+					"key": "product.images.platform.components.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.platform.components.commerce-suite.version",
+					"value": "2211.37"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-module.version",
+					"value": "2211azuresdk12-20250611-020215"
+				},
+				{
+					"key": "product.images.platform.components.ccv2-internal-module.version",
+					"value": "2211azuresdk12-20250611-020226"
+				},
+				{
+					"key": "product.images.platform.components.hybris-commerce-integrations.version",
+					"value": "2211.32"
+				},
+				{
+					"key": "product.images.solr.components.solr.version",
+					"value": "9.7"
+				},
+				{
+					"key": "product.images.solr.components.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.solr.components.ccv2-solr-module.version",
+					"value": "20231107-164105"
+				},
+				{
+					"key": "product.images.zookeeper.components.zookeeper.version",
+					"value": "3.9.3"
+				},
+				{
+					"key": "product.images.zookeeper.components.java.version",
+					"value": "21.0.7"
+				},
+				{
+					"key": "product.version",
+					"value": "2211.37-2211azuresdk12-20250611-020215"
+				},
+				{
+					"key": "project.repository.revision",
+					"value": "dd941ba"
+				},
+				{
+					"key": "product.builder.memory.os.reserved",
+					"value": "536870912"
+				},
+				{
+					"key": "product.builder.memory.limit.builder",
+					"value": "4125097984"
+				},
+				{
+					"key": "product.builder.memory.available",
+					"value": "-1"
+				},
+				{
+					"key": "product.builder.memory.additional.factor.platform.ant",
+					"value": "0.25"
+				},
+				{
+					"key": "product.images.platform.buildtime.java.version",
+					"value": "17.0.15"
+				},
+				{
+					"key": "product.images.platform.capabilities.resetAdminPasswordEnabled",
+					"value": "true"
+				},
+				{
+					"key": "commerce.endOfMaintenance",
+					"value": "2025-09-11"
+				}
+			]
+		}
+	],
+	"count": null
+}

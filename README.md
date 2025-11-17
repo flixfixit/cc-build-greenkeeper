@@ -1,4 +1,4 @@
-# cc-build-pruner (Java CLI)
+# cc-build-greenkeeper (Java CLI)
 
 Ein CLI, um alte, löschbare Builds in SAP Commerce Cloud zu listen und (optional) zu löschen.
 
@@ -17,8 +17,8 @@ Setze entweder **Flags** oder **ENV Variablen**:
 - `CC_API_BASE` – Basis-URL der Commerce Cloud API (z. B. https://api.eu.commercecloud.sap )
 - `CC_API_TOKEN` – Bearer Token
 - `CC_SUBSCRIPTION` – Subscription Code
-- `CC_BUILDS_PATH` – Pfad zur Build-Collection (Default: `/builds`)
-- `CC_DELETE_TEMPLATE` – Pfad-Template zum Löschen (Default: `/builds/%s` – `%s` wird durch buildCode ersetzt)
+- `CC_BUILDS_PATH` – Pfad zur Build-Collection (Default: `/builds`, wird automatisch unter `/v2/subscriptions/{subscription}` gehangen)
+- `CC_DELETE_TEMPLATE` – Pfad-Template zum Löschen (Default: `/builds/%s` – `%s` wird durch buildCode ersetzt; ebenfalls automatisch unter `/v2/subscriptions/{subscription}`)
 
 > Hinweis: Die exakten Endpunkte können je nach Tenant/Region leicht variieren. Passe ggf. `CC_BUILDS_PATH` und `CC_DELETE_TEMPLATE` an deine Dokumentation an.
 
@@ -27,7 +27,7 @@ Setze entweder **Flags** oder **ENV Variablen**:
 ### 1) Die 20 ältesten DEV‑Builds anzeigen, älter als 45 Tage
 
 ```bash
-java -jar target/cc-build-pruner-0.1.0-jar-with-dependencies.jar \
+java -jar target/cc-build-greenkeeper-0.1.0-jar-with-dependencies.jar \
   list --env DEV --older-than 45d --limit 20 \
   --base "$CC_API_BASE" --token "$CC_API_TOKEN" --subscription "$CC_SUBSCRIPTION"
 ```
@@ -35,7 +35,7 @@ java -jar target/cc-build-pruner-0.1.0-jar-with-dependencies.jar \
 ### 2) Die 10 ältesten löschbaren DEV‑Builds löschen (Dry‑Run)
 
 ```bash
-java -jar target/cc-build-pruner-0.1.0-jar-with-dependencies.jar \
+java -jar target/cc-build-greenkeeper-0.1.0-jar-with-dependencies.jar \
   prune --env DEV --older-than 30d --limit 10 \
   --base "$CC_API_BASE" --token "$CC_API_TOKEN" --subscription "$CC_SUBSCRIPTION"
 ```
@@ -43,7 +43,7 @@ java -jar target/cc-build-pruner-0.1.0-jar-with-dependencies.jar \
 ### 3) Tatsächlich löschen (mit Schutz der neuesten 5)
 
 ```bash
-java -jar target/cc-build-pruner-0.1.0-jar-with-dependencies.jar \
+java -jar target/cc-build-greenkeeper-0.1.0-jar-with-dependencies.jar \
   prune --env DEV --older-than 30d --limit 10 --keep-latest 5 --execute \
   --base "$CC_API_BASE" --token "$CC_API_TOKEN" --subscription "$CC_SUBSCRIPTION"
 ```

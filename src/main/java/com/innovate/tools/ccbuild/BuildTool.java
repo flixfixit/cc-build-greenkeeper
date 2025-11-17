@@ -6,7 +6,7 @@ import picocli.CommandLine;
         name = "cc-build",
         version = "0.1.0",
         mixinStandardHelpOptions = true,
-        description = "SAP Commerce Cloud Build Pruner CLI",
+        description = "SAP Commerce Cloud Build greenkeeper CLI",
         subcommands = {
                 Commands.ListCmd.class,
                 Commands.PruneCmd.class
