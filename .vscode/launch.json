@@ -21,7 +21,7 @@
             "console": "integratedTerminal",
             "args": [
                 "prune",
-				"-execute",
+				//"--execute",
                 "--older-than", "45d",
 				"--limit", "20",
                 "--base", "https://portalrotapi.hana.ondemand.com",

@@ -92,8 +92,10 @@ public class Client {
     }
 
     public void deleteBuild(String buildCode) throws IOException {
-        String resolvedPath = subscriptionScopedPath(String.format(deleteTemplate, enc(subscription), enc(buildCode)));
+        String resolvedPath = subscriptionScopedPath(String.format(deleteTemplate, enc(buildCode)));
         String url = baseUrl + resolvedPath;
+        //https://portal.commerce.ondemand.com/v2/subscriptions/9e7b8c8ac58c42c9a28234dd62960958/builds/20220307.1
+
         Request req = new Request.Builder()
                 .url(url)
                 .delete()
