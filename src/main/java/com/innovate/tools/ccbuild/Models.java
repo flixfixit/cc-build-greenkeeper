@@ -1,8 +1,6 @@
 package com.innovate.tools.ccbuild;
 
-import com.fasterxml.jackson.annotation.JsonAnyGetter;
-import com.fasterxml.jackson.annotation.JsonAnySetter;
-import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.*;
 
 import java.time.Instant;
 import java.util.HashMap;
@@ -20,12 +18,14 @@ public class Models {
         private String status;
 
         @JsonProperty("createdAt")
+        @JsonAlias({"buildStartTimestamp", "buildEndTimestamp"})
         private Instant createdAt;
 
         @JsonProperty("pinned")
         private boolean pinned;
 
         @JsonProperty("environment")
+        @JsonAlias({"branch"})
         private String environment;
 
         private Map<String, Object> raw = new HashMap<>();

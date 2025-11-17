@@ -49,7 +49,8 @@ public class Util {
     }
 
     static Instant tryParseInstantFromMap(Map<String, Object> raw) {
-        for (String k : List.of("createdAt", "created", "timestamp", "time", "created_on")) {
+        for (String k : List.of("createdAt", "created", "timestamp", "time", "created_on",
+                "buildStartTimestamp", "buildEndTimestamp")) {
             Object v = raw.get(k);
             if (v instanceof String str) {
                 try {
