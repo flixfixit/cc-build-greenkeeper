@@ -86,9 +86,6 @@ public class Commands {
         @CommandLine.Option(names = "--keep-latest", description = "Schützt die neuesten N Builds (pro Env)")
         int keepLatest = 5;
 
-        @CommandLine.Option(names = "--include-pinned", description = "Pinned Builds nicht ausschließen (Standard: ausschließen)")
-        boolean includePinned = false;
-
         @CommandLine.Option(names = "--execute", description = "Ohne dieses Flag ist es Dry-Run")
         boolean execute = false;
 
@@ -101,10 +98,8 @@ public class Commands {
             List<Models.Build> builds = client.listAllBuilds(pageSize);
             // nur nach Alter filtern
             builds = Util.applyFilters(builds, cutoffInstant);
-            // Pinned ausschließen, wenn nicht explizit gewünscht
-            if (!includePinned) {
-                builds.removeIf(Models.Build::pinned);
-            }
+            // Deployments und Snapshots nicht löschen
+            builds.removeIf(b -> b.deployed() || b.hasSnapshot());
             // nur „deletable“ Status
             //builds.removeIf(b -> !Util.isDeletableStatus(b.status()));
             // Nach Alter sortieren

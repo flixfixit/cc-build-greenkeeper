@@ -89,11 +89,12 @@ public class Util {
     }
 
     static void printTable(List<Models.Build> builds) {
-        System.out.printf("%-32s  %-24s  %-12s  %-25s  %-6s%n", "CODE", "NAME", "STATUS", "CREATED_AT", "PINNED");
+        System.out.printf("%-32s  %-24s  %-12s  %-25s  %-12s  %-9s%n",
+                "CODE", "NAME", "STATUS", "CREATED_AT", "HAS_SNAPSHOT", "DEPLOYED");
         for (Models.Build b : builds) {
             String created = b.createdAt() != null ? b.createdAt().toString() : String.valueOf(b.raw().get("_createdAtFallback"));
-            System.out.printf("%-32s  %-24s  %-12s  %-25s  %-6s%n",
-                    safe(b.code()), safe(b.name()), safe(b.status()), created, b.pinned());
+            System.out.printf("%-32s  %-24s  %-12s  %-25s  %-12s  %-9s%n",
+                    safe(b.code()), safe(b.name()), safe(b.status()), created, b.hasSnapshot(), b.deployed());
         }
     }
 

@@ -21,8 +21,11 @@ public class Models {
         @JsonAlias({"buildStartTimestamp", "buildEndTimestamp"})
         private Instant createdAt;
 
-        @JsonProperty("pinned")
-        private boolean pinned;
+        @JsonProperty("hasSnapshot")
+        private boolean hasSnapshot;
+
+        @JsonProperty("deployed")
+        private boolean deployed;
 
         private Map<String, Object> raw = new HashMap<>();
 
@@ -52,13 +55,17 @@ public class Models {
             return createdAt;
         }
 
-        public boolean pinned() {
-            return pinned;
+        public boolean hasSnapshot() {
+            return hasSnapshot;
+        }
+
+        public boolean deployed() {
+            return deployed;
         }
 
         @Override
         public String toString() {
-            return code + "\t" + name + "\t" + status + "\t" + createdAt + "\t" + pinned;
+            return code + "\t" + name + "\t" + status + "\t" + createdAt + "\t" + hasSnapshot + "\t" + deployed;
         }
     }
 }

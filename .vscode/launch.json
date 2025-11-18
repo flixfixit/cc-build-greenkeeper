@@ -6,6 +6,23 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Debug (Launch) - list",
+            "request": "launch",
+            "mainClass": "com.innovate.tools.ccbuild.BuildTool", 
+            "projectName": "cc-build-greenkeeper",
+            "console": "integratedTerminal",
+            "args": [
+                "list",
+				//"--execute",
+                "--older-than", "45d",
+				"--limit", "20",
+                "--base", "https://portalrotapi.hana.ondemand.com",
+                "--token", "77585fb781a7bc412ce90547d173ef9",
+                "--subscription", "9e7b8c8ac58c42c9a28234dd62960958"
+            ]
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${fileBasenameNoExtension}",
@@ -14,14 +31,14 @@
         },
         {
             "type": "java",
-            "name": "Debug (Launch) - Main Class",
+            "name": "Debug (Launch) - prune",
             "request": "launch",
             "mainClass": "com.innovate.tools.ccbuild.BuildTool", 
             "projectName": "cc-build-greenkeeper",
             "console": "integratedTerminal",
             "args": [
                 "prune",
-				//"--execute",
+				"--execute",
                 "--older-than", "45d",
 				"--limit", "20",
                 "--base", "https://portalrotapi.hana.ondemand.com",
